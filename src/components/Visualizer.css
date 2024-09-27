@@ -1,0 +1,47 @@
+/* src/components/Visualizer.css */
+.visualizer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.array-bar {
+    width: 30px;
+    margin: 0 2px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    transition: height 0.5s, background-color 0.5s;
+}
+
+.array-bar.compare {
+    background-color: red;
+    /* Comparison highlights in red */
+}
+
+.array-bar.merge {
+    background-color: green;
+    /* Merging highlights in green */
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+}
+
+.operation-display {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
